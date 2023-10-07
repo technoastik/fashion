@@ -38,6 +38,10 @@
 }
 nav.navbar.navbar-expand-lg.bg-body-tertiary {
     box-shadow: 0px 5px 20px -2px cadetblue;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
 }
 ul.navbar-nav.me-auto.mb-2.mb-md-0 {
     justify-content: end;
@@ -428,6 +432,9 @@ input#phoneNumber {
     font-weight: 600;
     font-size: 13px;
     }
+	main{
+		margin-top: 80px;
+	}
     .fashion-but button:hover{
     font-weight: 600;
     color: black;
